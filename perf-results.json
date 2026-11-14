@@ -1,0 +1,82 @@
+{
+  "node": "v22.23.4",
+  "platform": "linux",
+  "arch": "x64",
+  "rows": [
+    {
+      "qubits": 4,
+      "gates": 36,
+      "statevectorBytes": 256,
+      "timeMs": 0.5,
+      "heapDeltaMB": 0.3
+    },
+    {
+      "qubits": 8,
+      "gates": 77,
+      "statevectorBytes": 4096,
+      "timeMs": 3.9,
+      "heapDeltaMB": 0.3
+    },
+    {
+      "qubits": 10,
+      "gates": 97,
+      "statevectorBytes": 16384,
+      "timeMs": 3.3,
+      "heapDeltaMB": 0.3
+    },
+    {
+      "qubits": 12,
+      "gates": 116,
+      "statevectorBytes": 65536,
+      "timeMs": 1.5,
+      "heapDeltaMB": -0.9
+    },
+    {
+      "qubits": 14,
+      "gates": 137,
+      "statevectorBytes": 262144,
+      "timeMs": 6.9,
+      "heapDeltaMB": 0.1
+    },
+    {
+      "qubits": 16,
+      "gates": 157,
+      "statevectorBytes": 1048576,
+      "timeMs": 30.4,
+      "heapDeltaMB": 0.1
+    },
+    {
+      "qubits": 18,
+      "gates": 179,
+      "statevectorBytes": 4194304,
+      "timeMs": 139.7,
+      "heapDeltaMB": 0.1
+    },
+    {
+      "qubits": 20,
+      "gates": 195,
+      "statevectorBytes": 16777216,
+      "timeMs": 623.3,
+      "heapDeltaMB": 0.1
+    },
+    {
+      "qubits": 22,
+      "gates": 213,
+      "statevectorBytes": 67108864,
+      "timeMs": 2696.3,
+      "heapDeltaMB": -0.8
+    },
+    {
+      "qubits": 24,
+      "gates": 238,
+      "statevectorBytes": 268435456,
+      "timeMs": 11958.1,
+      "heapDeltaMB": -0.1
+    }
+  ],
+  "e2e": {
+    "gates": 2000,
+    "qubits": 8,
+    "timeMs": 17.9
+  }
+}

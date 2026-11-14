@@ -1,0 +1,16 @@
+{
+  "name": "qsim-c3-01",
+  "version": "1.0.0",
+  "description": "QC-C3-01: JavaScript-based OpenQASM 2.0/3.0 quantum circuit simulator with configurable per-qubit noise",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --test test/",
+    "demo": "node demo.js",
+    "perf": "node perf.js"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  }
+}

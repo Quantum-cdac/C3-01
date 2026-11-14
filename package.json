@@ -4,7 +4,7 @@
   "description": "QC-C3-01: JavaScript-based OpenQASM 2.0/3.0 quantum circuit simulator with configurable per-qubit noise",
   "main": "src/index.js",
   "scripts": {
-    "test": "node --test test/",
+    "test": "node --test test/*.test.js",
     "demo": "node demo.js",
     "perf": "node perf.js"
   },

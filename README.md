@@ -11,7 +11,13 @@ runs). Class III problem of the C-DAC Quantum Computing Hackathon.
 node demo.js              # simulate every example, ideally and with noise
 npm test                  # 80 tests: node --test
 node perf.js              # performance benchmark
+node run.js examples/bell.qasm 4096 42   # simulate any QASM file [shots] [seed]
 ```
+
+Running from a hosted Jupyter notebook (e.g. the Qniverse JupyterLab): upload
+and run `venue/C3-01-demo.ipynb`. It detects Node.js, fetches this repo
+read-only, runs the demo and test suite, and prints exact laptop commands if
+the environment has no Node.js.
 
 ```js
 const { simulate } = require('./src');
@@ -68,5 +74,6 @@ src/rng.js           seeded PRNG (mulberry32 + Box-Muller)
 src/gates.js         gate matrix library
 test/                node:test suites + independent dense-matrix reference
 examples/            QASM sample circuits
-demo.js, perf.js     runnable demo and benchmark
+demo.js, perf.js, run.js demo, benchmark and any-file runner
+venue/C3-01-demo.ipynb  notebook runner for hosted Jupyter environments
 ```
